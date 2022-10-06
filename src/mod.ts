@@ -1,13 +1,13 @@
-import type { Envelope } from "./types/types.d.ts";
+import type { Envelope } from "types";
 
-export interface HelloFunction {
+export type HelloFunction = {
   (name: string): string;
 }
 
 export const helloWorld: HelloFunction = (name) => {
   console.log("Hello World!", name);
   return "Hello World!" + name;
-}
+};
 
 export const MY_STRING = "Hello World!";
 

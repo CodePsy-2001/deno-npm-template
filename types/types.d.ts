@@ -1,4 +1,4 @@
-export interface Envelope {
+export type Envelope = {
   name: string;
   age: number;
   address: string;
