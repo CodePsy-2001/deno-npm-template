@@ -1,0 +1,7 @@
+{
+    "imports": {
+        "src/": "./",
+        "types": "../types/types.d.ts",
+        "dnt/": "https://deno.land/x/dnt@0.31.0/"
+    }
+}

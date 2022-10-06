@@ -1,4 +1,4 @@
-import { build, emptyDir } from "https://deno.land/x/dnt/mod.ts";
+import { build, emptyDir } from "dnt/mod.ts";
 
 await emptyDir("./npm");
 
@@ -7,7 +7,7 @@ const repo = "deno-npm-template";
 
 
 await build({
-  entryPoints: ["./mod.ts"],
+  entryPoints: ["./src/mod.ts"],
   outDir: "./npm",
   shims: { // jsdocs에서 더 많은 옵션을 찾아볼 수 있음
     deno: true,
