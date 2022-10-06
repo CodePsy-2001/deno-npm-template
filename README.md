@@ -20,7 +20,6 @@ npm publish
 
 ```shell
 # 프로젝트 디렉토리 루트에 `.npmrc` 파일을 작성하세요
-# 참고: 
 
 //npm.pkg.github.com/:_authToken=미리_발급받은_패키지읽기_토큰
 @계정명:registry=https://npm.pkg.github.com/
